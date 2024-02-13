@@ -1,17 +1,19 @@
 var nodemailer = require('nodemailer');
 
 var transporter = nodemailer.createTransport({
-  host: "sandbox.smtp.mailtrap.io",
-  port: 2525,
+  service: "gmail",
+  host: "smtp.gmail.com",
+  port: 587,
   auth: {
-    user: "",
-    pass: ""
+    user: "<your_gmail>",
+    // see the README.md
+    pass: "<your_google_application_password>"
   }
 });
 var mailOptions = {
-  from: 'youremail@gmail.com',
-  to: 'myfriend@yahoo.com',
-  subject: 'Sending Email using Node.js',
+  from: 'muhammadiqbalali167@gmail.com',
+  to: 'rizfirman@gmail.com',
+  subject: 'Test Kirim Invoice Ticket',
   html: template()
 };
 
