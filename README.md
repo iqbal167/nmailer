@@ -6,6 +6,6 @@ Visit to your [https://myaccount.google.com/](https://myaccount.google.com/)
 
 ![Aplication Password](docs/2.png)
 
-![Create Application Password](docs/3.png)4
+![Create Application Password](docs/3.png)
 
-![Finish](./docs/.png)
+![Finish](docs/4.png)
